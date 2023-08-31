@@ -11,8 +11,8 @@ jobs:
       - name: Login to tenant
         uses: pnp/action-cli-login@v2.0.0
         with:
-          ADMIN_USERNAME:  ${{ secrets.adminUsername }}
-          ADMIN_PASSWORD:  ${{ secrets.adminPassword }}
+          ADMIN_USERNAME:  ${{ secrets.ADMIN_USERNAME }}
+          ADMIN_PASSWORD:  ${{ secrets.ADMIN_PASSWORD }}
       
       - name: CLI for Microsoft 365 Run Script
         uses: ./
