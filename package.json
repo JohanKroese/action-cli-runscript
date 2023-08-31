@@ -1,6 +1,6 @@
 {
   "name": "@pnp/action-cli-runscript",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A GitHub Action that runs a CLI for Microsoft 365 script",
   "main": "dist/index.js",
   "scripts": {
@@ -67,9 +67,9 @@
     "microsoft"
   ],
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@actions/exec": "^1.1.0",
-    "@actions/io": "^1.1.1"
+    "@actions/core": "1.10.0",
+    "@actions/exec": "1.1.1",
+    "@actions/io": "1.1.3"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
