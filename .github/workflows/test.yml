@@ -11,8 +11,8 @@ jobs:
       - name: Login to tenant
         uses: pnp/action-cli-login@v2.0.0
         with:
-          TENANT: ${{ secrets.TENANT }}
-          APP_ID: ${{ secrets.APP_ID }}
+          TENANT: ${{ vars.TENANT }}
+          APP_ID: ${{ vars.APP_ID }}
           CERTIFICATE_ENCODED: ${{ secrets.CERTIFICATE_ENCODED }}
         
       - name: CLI for Microsoft 365 Run Script
