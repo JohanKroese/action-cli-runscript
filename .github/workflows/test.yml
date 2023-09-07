@@ -19,5 +19,5 @@ jobs:
         uses: ./
         id: runscript
         with:
-          CLI_MICROSOFT365_SCRIPT: m365 spo mail send --webUrl https://contoso.sharepoint.com/sites/teamsite --to 'user@contoso.onmicrosoft.com' --subject 'Deployment done' --body '<h2>CLI for Microsoft 365</h2> <p>The deployment is complete.</p> <br/> Email sent via CLI for Microsoft 365 GitHub Action.'
+          CLI_MICROSOFT365_SCRIPT: m365 spo mail send --webUrl https://insparked.sharepoint.com --to 'johan@insparked.onmicrosoft.com' --subject 'Deployment done' --body '<h2>CLI for Microsoft 365</h2> <p>The deployment is complete.</p> <br/> Email sent via CLI for Microsoft 365 GitHub Action.'
     
